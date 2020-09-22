@@ -19,19 +19,19 @@ let greenValue = greenText.value;
 let blueValue = blueText.value;
 
 // change the values
-redRange.addEventListener("change", changeValueRed);
+redRange.addEventListener("input", changeValueRed);
 function changeValueRed() {
     redText.value = this.value;
     redValue = redText.value;
     changeColor();
 }
-greenRange.addEventListener("change", changeValueGreen);
+greenRange.addEventListener("input", changeValueGreen);
 function changeValueGreen() {
     greenText.value = this.value;
     greenValue = greenText.value;
     changeColor();
 }
-blueRange.addEventListener("change", changeValueBlue);
+blueRange.addEventListener("input", changeValueBlue);
 function changeValueBlue() {
     blueText.value = this.value;
     blueValue = blueText.value;
