@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho prático 1</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Trabalho Prático 1 - Bootcamp IGTI</h1>
+        <h2>Aluno: Marcelo Valada</h2>
+    </header>
+    <div class="container">
+        <div class="color">
+            <p>(R) Vermelho</p>
+            <input type="range" id="redRange" min="0" max="255">
+            <input type="text" name="red" value="0"  id="redText" disabled>
+        </div>
+        <div class="color">
+            <p>(G) Verde</p>
+            <input type="range" id="greenRange" min="0" max="255">
+            <input type="text" name="green" value="0"  id="greenText" disabled>
+        </div>
+        <div class="color">
+            <p>(B) Azul</p>
+            <input type="range" id="blueRange" min="0" max="255">
+            <input type="text" name="blue" value="0" id="blueText" disabled>
+        </div>
+        <div id="square"></div>
+    </div>
+
+    <footer>
+        <p>Bootcamp - Desenvolvedor FullStack</p>
+        <p>2020.2</p>
+    </footer>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
